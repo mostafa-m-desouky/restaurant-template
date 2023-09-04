@@ -31,43 +31,43 @@ document.querySelector("#close").onclick = () => {
     document.querySelector("#search-form").classList.remove("active");
 }
 // End Search Form
-var swiper = new Swiper(".home-slider", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-        delay: 7500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    loop: true,
-});
+// var swiper = new Swiper(".home-slider", {
+//     spaceBetween: 30,
+//     centeredSlides: true,
+//     autoplay: {
+//         delay: 7500,
+//         disableOnInteraction: false,
+//     },
+//     pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//     },
+//     loop: true,
+// });
 // End Slider
-var swiper = new Swiper(".review-slider", {
-    spaceBetween: 20,
-    centeredSlides: true,
-    autoplay: {
-        delay: 7500,
-        disableOnInteraction: false,
-    },
-    loop: true,
-    breakpoint: {
-        0: {
-            slidesperView: 1,
-        },
-        640: {
-            slidesperView: 2,
-        },
-        768: {
-            slidesperView: 2,
-        },
-        1024: {
-            slidesperView: 3,
-        },
-    }
-});
+// var swiper = new Swiper(".review-slider", {
+//     spaceBetween: 20,
+//     centeredSlides: true,
+//     autoplay: {
+//         delay: 7500,
+//         disableOnInteraction: false,
+//     },
+//     loop: true,
+//     breakpoint: {
+//         0: {
+//             slidesperView: 1,
+//         },
+//         640: {
+//             slidesperView: 2,
+//         },
+//         768: {
+//             slidesperView: 2,
+//         },
+//         1024: {
+//             slidesperView: 3,
+//         },
+//     }
+// });
 // End review slider
 function loader () {
     document.querySelector(".loader-container").classList.add("fade-out")
